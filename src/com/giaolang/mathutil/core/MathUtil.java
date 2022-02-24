@@ -22,7 +22,7 @@ public class MathUtil {
     //ko có âm giai thừa
     //0! = 1! = 1
     public static long getFactorial(int n) {
-        long product = 10;
+        long product = 1;
         
         if (n > 20 || n < 0)
             throw new IllegalArgumentException("n must be between 0..20");
